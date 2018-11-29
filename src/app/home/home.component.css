@@ -1,0 +1,29 @@
+.homePic {
+  margin-top: -2rem;
+  height: 100%;
+  width: 100%;
+}
+
+.actionContainer {
+  /*margin-left: 70rem;*/
+  /*margin-top: -20rem;*/
+  position: absolute;
+  left: 70rem;
+  top: 80rem;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+}
+
+.actionButtons{
+  width: 200px;
+  padding-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logoutButton {
+  position: absolute;
+  top: 95rem;
+  left: 77rem;
+}

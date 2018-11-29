@@ -1,0 +1,8 @@
+<span mat-dialog-title>Results</span>
+<div mat-dialog-content>
+    <span *ngIf="done">You scored {{score}} out of {{correctAnswers.length}}</span>
+</div>
+<div mat-dialog-actions>
+  <button mat-button (click)="onCancelClick()">Cancel</button>
+  <button mat-button [mat-dialog-close]="score" cdkFocusInitial>Try Again</button>
+</div>

@@ -3,7 +3,15 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  firebase : {
+    apiKey: 'AIzaSyA2Th0irv1EsmS-iaHlXiOT8xxEtm9jxbM',
+    authDomain: 'hakuna-automatata-1acaa.firebaseapp.com',
+    databaseURL: 'https://hakuna-automatata-1acaa.firebaseio.com',
+    projectId: 'hakuna-automatata-1acaa',
+    storageBucket: 'hakuna-automatata-1acaa.appspot.com',
+    messagingSenderId: '1042583426738'
+  }
 };
 
 /*

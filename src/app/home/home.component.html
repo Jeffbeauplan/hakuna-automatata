@@ -1,0 +1,16 @@
+<img [attr.src]="imgSrc" class="homePic"/>
+
+<button class="logoutButton" (click)="auth.logout()">Logout</button>
+
+<div class="actionContainer">
+  <div>
+    <input matInput style="width: 200px" [(ngModel)]="answerList[imgNum]" (keyup.enter)="next()"/>
+  </div>
+
+  <div class="actionButtons">
+    <button (click)="previous()">Previous</button>
+    <button (click)="next()">Next</button>
+    <button (click)="submitAnswer()">Submit</button>
+  </div>
+</div>
+
